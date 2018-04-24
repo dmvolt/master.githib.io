@@ -1,0 +1,47 @@
+.section--contact{
+	background-color: #e9e4df;
+	position: relative;
+	padding-bottom: 140px;
+}
+.section--contact h2{
+	margin-top: 170px;
+	margin-bottom: 90px;
+	color: black;
+	font-size: 40px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	text-align: center;
+}
+.section--contact--txt p, .section--contact--txt a{
+	color: black;
+	font-family: 'EB Garamond';
+	font-size: 36px;
+	text-align: left;
+}
+.section--contact__button{
+	margin-top: 62px;
+	width: 250px;
+	height: 50px;
+	border-radius: 2px;
+	font-size: 18px;
+	text-transform: uppercase;
+	background-image: url(../images/back_but.jpg);
+	border-width: 0px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	outline: none!important;
+}
+.section--contact__button:hover {
+	background-image: url(../images/back_but-hov_03.jpg);
+	transition: .8s;
+}
+.section--contact__button:active:focus{
+	background-image: url(../images/back_but-ac_06.jpg);
+	color: white;
+	transition: .4s;
+}
+.section--contact iframe{
+	width: 100%;
+	height: 350px;
+}

@@ -1,0 +1,137 @@
+.section--masters{
+	background-color: #e9e4df;
+	z-index: 0;
+}
+.section--masters .masters--block_img img{
+	margin-top: 160px;
+}
+.section--masters h2{
+	margin-top: 160px;
+	font-size: 40px;
+	letter-spacing: 0.05em;
+	margin-bottom: 35px;
+}
+.section--masters p{
+	font-size: 18px;
+	font-family: 'EB Garamond';
+	line-height: 24px;
+}
+.block_txt--img {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.block_txt--img img{
+	margin-right: 23px;
+}
+.masters--block_txt__bottom h4 {
+	font-family: 'EB Garamond';
+	font-size: 18px;
+	font-weight: bold;
+}
+.masters--block_txt__bottom li{
+	font-family: 'EB Garamond';
+	font-size: 18px;
+	line-height: 24px;
+	position: relative;
+	font-weight: bold;
+}
+.masters--block_txt__bottom li:before{
+	content: "";
+	display: inline-block;
+	position: relative;
+	width: 6px;
+	height: 6px;
+	border-radius: 50px;
+	background-color: black;
+	margin-right: 5px;
+	top: -3px;
+}
+.masters__footer-content {
+	z-index: 2;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	left: 0;
+}
+
+.footer-content--leftblock {
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+.footer-txt p {
+	font-family: 'Montserrat';
+	font-size: 18px;
+	color: #fbf9ce;
+	margin-top: 60px;
+}
+
+.footer--social img {
+	width: 32px;
+	margin-top: 54px;
+	margin-right: 10px;
+}
+.section--masters .form--basis p {
+	color: black;
+	font-size:12px;
+	margin-top: 0;
+	margin-right: 0;
+}
+.section--masters .form--basis h2{
+	margin-top: 40px;
+}
+
+
+/*MASTERs-list*/
+
+.maters-list__content{
+	background-image: url(../images/masters_back_02.jpg);
+	background-size: 100% 100%;
+}
+
+.maters-list__content h2{
+	margin-top: 160px;
+	text-align: center;
+	margin-bottom: 40px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+
+}
+.maters-list__content h3{
+	color: white;
+	padding-top: 30px;
+	font-size: 24px;
+	padding-left: 12px;
+	padding-right: 12px;
+
+}
+.maters-list__content p{
+	color: white;
+	font-size: 18px;
+	padding-left: 12px;
+	padding-bottom: 30px;
+	padding-right: 12px;
+
+}
+container--txt__info{
+	height: 100px;
+}
+
+.master-list__container--txt{
+	height: 205px;
+	margin-top: -20px;
+	padding-right: 0;
+
+}
+.master-list__container a {
+	display: block;
+	transition:  .5s all;
+}
+.master-list__container a:hover{
+	background-color: #e6462d;
+}
+.master-list__container{
+	margin-top: 55px;
+}
+

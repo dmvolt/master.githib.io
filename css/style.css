@@ -1,0 +1,434 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.eot');
+	src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+	url('../fonts/Montserrat-Regular.woff') format('woff'),
+	url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+	url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Bold.eot');
+	src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+	url('../fonts/Montserrat-Bold.woff') format('woff'),
+	url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+	url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'EB Garamond';
+	src: url('../fonts/EBGaramond-Regular.eot');
+	src: url('../fonts/EBGaramond-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/EBGaramond-Regular.woff2') format('woff2'),
+	url('../fonts/EBGaramond-Regular.woff') format('woff'),
+	url('../fonts/EBGaramond-Regular.ttf') format('truetype'),
+	url('../fonts/EBGaramond-Regular.svg#EBGaramond-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Black.eot');
+	src: url('../fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Montserrat-Black.woff2') format('woff2'),
+	url('../fonts/Montserrat-Black.woff') format('woff'),
+	url('../fonts/Montserrat-Black.ttf') format('truetype'),
+	url('../fonts/Montserrat-Black.svg#Montserrat-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'EB Garamond';
+	src: url('../fonts/EBGaramond-Bold.eot');
+	src: url('../fonts/EBGaramond-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/EBGaramond-Bold.woff2') format('woff2'),
+	url('../fonts/EBGaramond-Bold.woff') format('woff'),
+	url('../fonts/EBGaramond-Bold.ttf') format('truetype'),
+	url('../fonts/EBGaramond-Bold.svg#EBGaramond-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+
+}
+
+html,
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Montserrat';
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Montserrat';
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Montserrat';
+	font-size: 18px;
+}
+
+h4 {
+	font-family: 'Montserrat';
+	font-size: 11px;
+}
+
+p {
+	font-family: 'EB Garamond';
+}
+
+.pading--right {
+	margin-right: 0;
+	margin-right: -81px !important;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.position-fix {
+	position: relative;
+}
+
+.section--block-info img {
+	width: 100%;
+}
+
+.margin__left {
+	margin-left: -32px;
+}
+
+.margin__left--two {
+	margin-left: -96px;
+}
+
+.modal-header .form--basis h2 {
+	margin-top: 20px;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.modal-content {
+	background-color: #3e2e22;
+}
+
+button.close {
+	color: white;
+}
+
+.close:focus, .close:hover {
+	color: white;
+}
+
+.modal-header {
+	border-bottom: 1px solid transparent;
+}
+
+.modal-content .form--basis__button {
+	margin-bottom: 50px;
+}
+
+.owl-prev{
+	top: 35%;
+	left: 0px;
+	position: absolute;
+	margin-top: -95px;
+	margin-left: -20px;
+	outline: none;
+}
+.owl-carousel{
+	position: relative;
+}
+.owl-nav span{
+	font-size: 80px;
+	color: #e6462d;
+
+}
+.owl-next {
+	top: 35%;
+	right: 0px;
+	position: absolute;
+	margin-top: -95px;
+	margin-right: -20px;
+	outline: none;
+}
+
+
+
+@media (min-width: 1440px) {
+	.container {
+		width: 1360px;
+	}
+
+	.container.fix {
+		width: 1170px;
+	}
+}
+
+@media (max-width: 1369px) {
+
+}
+
+@media (max-width: 1199px) {
+	.section-video__content h1 {
+		font-size: 60px;
+		margin-top: 315px;
+	}
+}
+
+@media (max-width: 991px) {
+	.block--meta {
+		display: none;
+	}
+
+	.footer-txt p {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.footer--social {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-bottom: 30px;
+		margin-top: -20px;
+	}
+
+	.maters-list__content {
+		background-size: cover;
+	}
+
+	.section-video__content h1 {
+		font-size: 47px;
+	}
+
+	.section--nav--content {
+		position: relative;
+	}
+
+	.section--block-info {
+		position: relative;
+	}
+
+	.section--masters .masters--block_img img {
+		margin-top: 30px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.header--navigation {
+		display: none;
+	}
+
+	.header--navigation__mobile {
+		display: block;
+	}
+
+	.section--contact iframe {
+		margin-top: 50px;
+		margin-bottom: 80px;
+	}
+
+	.master-list__container a {
+		width: 277px;
+		margin: 0 auto;
+	}
+
+	.services--content__bottom p {
+		text-align: center;
+	}
+
+	.section--video {
+		background-size: cover;
+	}
+
+	.section-video__content h1 {
+		font-size: 41px;
+		margin-top: 220px;
+	}
+
+	.section--form {
+		background-size: cover;
+	}
+
+	.section--bottom {
+		background-size: cover;
+	}
+
+	.section--contact--txt {
+		text-align: center;
+	}
+	.section--contact--txt p, .section--contact--txt a{
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 600px) {
+	input[type=text] {
+		width: 100%;
+	}
+
+	.section--contact--txt p, .section--contact--txt a {
+		text-align: center !important;
+		font-size: 30px !important;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.section--contact__button {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.services--content a h3 {
+		font-size: 30px;
+	}
+
+	.services--content .dropdown h3:after {
+		top: 17px;
+	}
+
+	.services--content__bottom p {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 35px !important;
+	}
+
+	form h2 {
+		font-size: 32px !important;
+	}
+
+	.section-video__content h1 {
+		font-size: 31px;
+		margin-top: 200px;
+	}
+
+	.section-video__content p {
+		font-size: 31px;
+	}
+
+	.margin__left {
+		margin-left: 0;
+	}
+
+}
+
+@media (max-width: 500px) {
+	.services--content__price p:before {
+		border-bottom: 1px solid transparent;
+	}
+
+	.services--content__price .price--left {
+		text-align: center;
+		float: none;
+
+	}
+
+	.services--content__price .price--right {
+		text-align: center;
+		float: none;
+
+	}
+
+	.services--content__price p {
+		text-align: center;
+	}
+
+	.section--block-info p {
+		font-size: 19px;
+	}
+
+	.maters-list__content {
+		background-color: #fff;
+		background-image: none;
+	}
+
+	.maters-list__content h3 {
+		color: black;
+	}
+
+	.container--txt__info {
+		display: none;
+	}
+
+	.master-list__container--txt {
+		height: 60px;
+	}
+
+	.maters-list__content h2 {
+		color: black;
+	}
+
+	.margin__left--two {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 450px) {
+	.section--bottom p, .section--bottom a {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 380px) {
+	.section--contact--txt p, .section--contact--txt a {
+		font-size: 25px !important;
+	}
+
+	h2 {
+		font-size: 30px !important;
+	}
+
+	form h2 {
+		font-size: 30px !important;
+	}
+
+	.section--nav--content a, .section--nav--content p {
+		font-size: 38px;
+	}
+
+	.nav {
+		top: 0;
+	}
+}

@@ -1,0 +1,136 @@
+.services--content {
+	background-color: #e9e4df;
+}
+
+.services--content h2 {
+	margin-top: 170px;
+	text-align: center;
+	margin-bottom: 15px;
+	color: black !important;
+}
+
+.ser--back {
+	background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.services--content tr {
+	border-color: transparent;
+
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+	border-top: 1px solid transparent !important;
+}
+
+.table > thead > tr > th {
+	border-top: 1px solid transparent !important;
+	border-bottom: 2px solid transparent !important;
+}
+
+.services--content__bottom p {
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'Montserrat';
+}
+
+.services--content__bottom {
+	margin-top: 60px;
+}
+
+.services--content__price {
+	position: relative;
+}
+
+.services--content__price p {
+	width: 100%;
+	position: relative;
+}
+
+.services--content__price p:before {
+	content: "";
+	position: absolute;
+	bottom: auto;
+	top: 24px;
+	left: 0;
+	border-bottom: 1px solid #bab6b2;
+	width: 100%;
+	z-index: 0;
+
+}
+
+.services--content__price .price--left {
+	float: left;
+	background-color: #e9e4df;
+	border-bottom: 1px solid #e9e4df;
+	z-index: 1;
+	position: relative;
+	padding-right: 8px;
+	color: black;
+	font-size: 24px;
+	font-family: 'EB Garamond';
+}
+
+.services--content__price .price--right {
+	float: right;
+	background-color: #e9e4df;
+	border-bottom: 1px solid #e9e4df;
+	z-index: 1;
+	position: relative;
+	padding-left: 8px;
+	color: black;
+	font-size: 24px;
+	font-family: 'EB Garamond';
+}
+
+.services--content__price p:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.services--content a h3 {
+	font-size: 48px;
+	font-weight: bold;
+	font-family: 'EB Garamond';
+	text-transform: capitalize;
+	letter-spacing: 0.05em;
+	padding-bottom: 0px;
+	color: black;
+	position: relative;
+	float: left;
+	padding-right: 30px;
+}
+.services--content .dropdown:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.dropdown-menu {
+	position: relative;
+	background-color: #e9e4df;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: none;
+
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	min-width: 100%;
+}
+
+.services--content .dropdown h3:after {
+	content: "";
+	display: block;
+	background-image: url(../images/triagle.png);
+	width: 20px;
+	height: 10px;
+	top: 29px;
+	right: 0;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.services--content .dropdown.open h3:after {
+	transform: rotate(-180deg);
+}
+
