@@ -362,7 +362,7 @@ button.close {
 	.services--content__price .price--left {
 		text-align: center;
 		float: none;
-
+		display: block;
 	}
 
 	.services--content__price .price--right {
@@ -402,6 +402,9 @@ button.close {
 
 	.margin__left--two {
 		margin-left: 0;
+	}
+	input[type=text]{
+		font-size: 25px;
 	}
 }
 
