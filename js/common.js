@@ -7,8 +7,13 @@ $(document).ready(function() {
 			url: "mail.php",
 			data: $(this).serialize()
 		}).done(function() {
-			$(this).find("input").val("");
-			alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
+			//$(this).find("input").val("");
+			//alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
+			$("#form").hide();
+			$("#success1").show();
+			//$("#success1").addClass('className');
+			//$("#success1").removeClass('className');
+			$("#success1").text("<h2>Спасибо</h2>");
 			$("#form").trigger("reset");
 		});
 		return false;
